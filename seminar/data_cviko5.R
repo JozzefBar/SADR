@@ -1,6 +1,6 @@
 #' ---
 #' title: "Dvojvyberove testy, ANOVA"
-#' author: "Jana Kalicka"
+#' author: "Jozef Barčák"
 #' ---
 #'
 library(latexpdf)

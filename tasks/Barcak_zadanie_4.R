@@ -64,7 +64,7 @@ boxplot(prijem$Prijem ~ prijem$Miesto, col = brewer.pal(4, "Pastel1"),
 par(mfrow = c(1, 1))
 #' Najvacsie rozdiely vidno pri mieste prace - cim vacsie sidlo, tym vyssi
 #' prijem. Pri vzdelani ma najnizsi prijem skupina 1. Pri sektore su
-#' krabice skoro rovnake.
+#' boxploty skoro rovnake.
 
 #'
 #'## Vek
@@ -299,7 +299,7 @@ sum(dieta$strata < 0)
 boxplot(dieta$strata ~ dieta$Pohlavie, col = c("red", "blue"),
         main = "Percentualna strata hmotnosti", xlab = "pohlavie (F = zeny, M = muzi)",
         ylab = "strata hmotnosti (%)")
-#' Zeny schudli v priemere 9.53 %, muzi 9.10 %. Krabice su skoro rovnake.
+#' Zeny schudli v priemere 9.53 %, muzi 9.10 %. Boxploty su skoro rovnake.
 #' 39 klientov ma stratu zapornu, teda po programe vazili viac ako pred nim.
 muzi <- dieta$strata[dieta$Pohlavie == "M"]
 zeny <- dieta$strata[dieta$Pohlavie == "F"]
